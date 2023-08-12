@@ -1,0 +1,30 @@
+{
+  "name": "mytinerary-back-deborabadosa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debiabril/mytinerary-back-deboraBadosa.git"
+  },
+  "author": "debi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debiabril/mytinerary-back-deboraBadosa/issues"
+  },
+  "homepage": "https://github.com/debiabril/mytinerary-back-deboraBadosa#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
