@@ -1,14 +1,12 @@
-import express from "express"
+import express from "express";
+import citiesRouter from "./cities.router.js"
 
 const router = express.Router()
 
 router.get("/", (request, response) => {
     console.log(request);
     response.send("Hello World");
-    response.json({
-        success : true,
-        message : "probando"
-    })
-})
+});
+router.use('/cities', citiesRouter);
 
 export default router
