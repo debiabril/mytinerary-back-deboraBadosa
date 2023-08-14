@@ -1,4 +1,3 @@
-
 const controller = {
     getCities: (req, res) => {
         console.log(req);
