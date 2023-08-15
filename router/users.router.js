@@ -3,11 +3,11 @@ import usersController from "../controllers/user.controller.js";
 
 const router = express.Router()
 
-const { getUsers, createUser, getUsercreateUserById }= usersController;
+const { getUsers, createUser, getUserById }= usersController;
 
 router.get('/', getUsers);
 
-router.get('/:id', getUsercreateUserById)
+router.get('/:id', getUserById)
 
 router.post('/', createUser);
 
