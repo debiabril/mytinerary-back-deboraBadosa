@@ -59,5 +59,20 @@
     "url": "https://cafedelasciudades.com.ar/wp-content/uploads/2022/12/Guia-turistica-de-Sidney.jpg",
     "city": "Sydney",
     "country": "Australia"
+    },
+    {
+    "country": "Mexico",
+    "city": "Mexico City",
+    "url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GHOPPDRQTVDHZI7YSPEMZQXOGQ.jpg"
+    },
+    {
+    "country": "Peru",
+        "city": "Cusco",
+        "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/a9/03/14/vista-desde-la-puerta.jpg?w=600&h=400&s=1"
+    },
+    {
+    "country": "South Africa",
+        "city": "Cape Town",
+        "url": "https://media.gq.com/photos/5582f6b43655c24c6c9537aa/master/w_1600%2Cc_limit/food-and-travel-2014-10-cape-town-cape-town-gq-magazine-october-2014-travel-01.jpg"
     }]
 }
