@@ -4,23 +4,58 @@ const controller = {
     getCities: async(req, res) => {
         let queries = {}
         if(req.query.city){
-            queries.city = req.query.city
+            queries.city = new RegExp(`^${req.query.city}`, 'i')
         }
-        
+
+        /* if(req.query.country){
+            queries.country = new RegExp(`^${req.query.country}`, 'i')
+        } */
+
         try {
             const cities = await City.find(queries)
-            return res.status(200).json({
-                success: true,
-                cities
+            if(cities.length >0 ){
+                return res.status(200).json({
+                    success: true,
+                    cities
+                })
+            }
+
+            return res.status(404).json({
+                success: false,
+                message: "We can't find the city"
+            });
+        } catch (error) {
+            console.log(error);
+            return res.status(500).json({
+                succes: false,
+                message: 'Error getting the Cities'
             })
+        }
+    },
+
+    getCityById: async(req, res) => {
+        try {
+            const oneCity = await City.findById(req.params.id)
+            
+            if(oneCity){
+                return res.status(200).json({
+                    success: true,
+                    city: oneCity
+                });
+            }
+            return res.status(404).json({
+                success: false,
+                message: 'Error getting the City'
+            });
         } catch (error) {
             console.log(error);
             return res.status(500).json({
                 succes: false,
                 message: 'Error getting the City'
             })
-        }
+        } 
     },
+
     createCity: async(req, res) => {
         try {
             const newCity = await City.create(req.body); 
@@ -35,10 +70,9 @@ const controller = {
                 succes: false,
                 message: 'Error creating the City'
             })
-        }
-
-        
+        }        
     },
+
     deleteCity: () => {},
 }
 export default controller;
