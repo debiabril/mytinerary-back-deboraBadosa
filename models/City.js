@@ -6,6 +6,10 @@ let schema =  new Schema({
     city : {type:String, required:true},
     country : {type:String, required:true},
     url : {type:String, required:true},
+    language: {type:String},
+    currency: {type:String},
+    description: {type:String},
+    cost: {type:Number},
     user: {type: Types.ObjectId, ref: 'users'},
 },{
     timestamps: true
@@ -13,3 +17,4 @@ let schema =  new Schema({
 
 const City = model (collection, schema);
 export default City;
+

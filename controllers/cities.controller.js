@@ -72,7 +72,36 @@ const controller = {
             })
         }        
     },
+    updateCity: async(req, res) => {
+        try {
+            await City.updateOne({_id: req.params.id}, req.body)
+            return res.status(200).json({
+                success: true,
+                message: 'City updated successfully'
+            })
 
-    deleteCity: () => {},
+        } catch (error) {
+            console.log(error);
+            return res.status(500).json({
+                succes: false,
+                message: 'Error trying to update the City'
+            })
+        }
+    },
+    deleteCity: async(req, res) => {
+        try {
+            await City.deleteOne({_id: req.params.id})
+            return res.status(200).json({
+                success: true,
+                message: 'City deleted successfully'
+            })
+        } catch (error) {
+            console.log(error);
+            return res.status(500).json({
+                succes: false,
+                message: 'Error trying to delete the City'
+            })
+        }
+    },
 }
 export default controller;
