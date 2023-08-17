@@ -2,7 +2,7 @@ import City from "../models/City.js"
 
 const controller = {
     getCities: async(req, res) => {
-        let queries = {}
+        let queries = {} 
         if(req.query.city){
             queries.city = new RegExp(`^${req.query.city}`, 'i')
         }
@@ -13,7 +13,7 @@ const controller = {
 
         try {
             const cities = await City.find(queries)
-            if(cities.length >0 ){
+            if(cities.length > 0 ){
                 return res.status(200).json({
                     success: true,
                     cities
