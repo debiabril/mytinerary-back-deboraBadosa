@@ -1,7 +1,7 @@
 import Itinerary from "../models/Itinerary.js"
 
 const controller = {
-    getCities: async(req, res) => {
+    getItineraries: async(req, res) => {
         let queries = {} 
         if(req.query.itinerary){
             queries.itinerary = new RegExp(`^${req.query.itinerary}`, 'i')
