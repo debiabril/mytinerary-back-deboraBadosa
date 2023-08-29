@@ -8,13 +8,12 @@ let schema =  new Schema({
     price : {type:Number, required:true},
     likes: {type:Number},
     hashtags: [{type:String}],
-    activities:[{
-        "name": {type: String},
-        "url": {type: String}
-    }],
+    user: {type: Types.ObjectId, ref:'users'},
+    city_id: {type: Types.ObjectId , ref:'cities'},
+    activities:{ type: Types.ObjectId, ref:'ativities' },
     comments:[{
-        "comment": {type: String},
-        "user" : {type: Types.ObjectId, ref:'User' }
+        comment: {type: String},
+        user : {type: Types.ObjectId, ref:'users' }
     }],
 },{
     timestamps: true
