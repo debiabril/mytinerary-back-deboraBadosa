@@ -7,10 +7,6 @@ const controller = {
             queries.itinerary = new RegExp(`^${req.query.itinerary}`, 'i')
         }
 
-        /* if(req.query.country){
-            queries.country = new RegExp(`^${req.query.country}`, 'i')
-        } */
-
         try {
             const itineraries = await Itinerary.find(queries)
             if(itineraries.length > 0 ){
@@ -35,7 +31,9 @@ const controller = {
 
     getItineraryById: async(req, res) => {
         try {
-            const oneItinerary = await Itinerary.findById(req.params.id)
+            const oneItinerary = await Itinerary.findById(req.params.id).populate({
+                path: 'user',
+                path: 'activities'})
             
             if(oneItinerary){
                 return res.status(200).json({

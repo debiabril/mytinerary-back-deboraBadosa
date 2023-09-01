@@ -1,78 +1,154 @@
 {
     "cities":[
-    {
-    "city": "London",
-    "country": "England",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg"
-    },
-    {
-    "url": "https://media.gq.com.mx/photos/635c136db430aa98c0db8aee/16:9/w_2560%2Cc_limit/ciudad%2520de%2520panama-1204869339.jpg",
-    "city": "Panama",
-    "country": "Panama"
-    },
-    {
-    "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/20/a5/f9.jpg",
-    "city": "Mendoza",
-    "country": "Argentina"
-    },
-    {
-    "url": "https://blog.japanwondertravel.com/wp-content/uploads/2022/03/manuel-velasquez-ssfp9okORYs-unsplash.jpg",
-    "city": "Tokyo",
-    "country": "Japan"
-    },
-    {
-    "url": "https://www.bbva.com/wp-content/uploads/2016/10/Wangjing-BBVA-1024x683.jpg",
-    "city": "Pekin",
-    "country": "China"
-    },
-    {
-    "url": "https://img2.rtve.es/v/868498/square/?h=400",
-    "city": "Barcelona",
-    "country": "Spain"
-    },
-    {
-    "url": "https://media.traveler.es/photos/6231abc7d03e1c5549e648ca/16:9/w_2560%2Cc_limit/The%2520Best%2520Places%2520for%2520Female%2520Solo%2520Travelers_Amsterdam_GettyImages-923546342.jpg",
-    "city": "Amsterdam",
-    "country": "Netherlands"
-    },
-    {
-    "url": "https://historia.nationalgeographic.com.es/medio/2019/12/11/coliseo-roma_2924b6ae_1280x720.jpg",
-    "city": "Rome",
-    "country": "Italy"
-    },
-    {
-    "url": "https://www.civitatis.com/blog/wp-content/uploads/2022/10/panoramica-rio-janeiro-brasil.jpg",
-    "city": "Rio de Janeiro",
-    "country": "Brazil"
-    },
-    {
-    "url": "https://images.ecestaticos.com/Eha5BQExbrkOVLCYYSOibX40YRQ=/0x0:1000x750/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F036%2Fcf6%2F706%2F036cf6706198f8ac3e0fbeb0a759e020.jpg",
-    "city": "Copenhagen",
-    "country": "Denmark"
-    },
-    {
-    "url": "https://www.civitatis.com/blog/wp-content/uploads/2020/05/estambul-un-dia.jpg",
-    "city": "Istanbul",
-    "country": "Turkey"
-    },
-    {
-    "url": "https://cafedelasciudades.com.ar/wp-content/uploads/2022/12/Guia-turistica-de-Sidney.jpg",
-    "city": "Sydney",
-    "country": "Australia"
-    },
-    {
-    "country": "Mexico",
-    "city": "Mexico City",
-    "url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GHOPPDRQTVDHZI7YSPEMZQXOGQ.jpg"
-    },
-    {
-    "country": "Peru",
-        "city": "Cusco",
-        "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/a9/03/14/vista-desde-la-puerta.jpg?w=600&h=400&s=1"
-    },
-    {
-    "country": "South Africa",
-        "city": "Cape Town",
-        "url": "https://media.gq.com/photos/5582f6b43655c24c6c9537aa/master/w_1600%2Cc_limit/food-and-travel-2014-10-cape-town-cape-town-gq-magazine-october-2014-travel-01.jpg"
-    }]
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/London_Skyline_%28125508655%29.jpeg",
+              "city": "London",
+              "country": "England",
+              "language": "English",
+              "currency": "British Pound",
+              "description": "London, the capital of England, is an iconic city that seamlessly blends history with modernity. With its rich cultural heritage, world-class museums, and diverse neighborhoods, London offers something for every traveler. Explore the grandeur of Buckingham Palace, the historic charm of the Tower of London, and the vibrant atmosphere of Covent Garden. Immerse yourself in the theater scene of the West End and take a leisurely stroll along the River Thames. From its iconic red buses to its bustling markets, London is a city that captivates with its energy and endless discoveries.",
+              "cost": 4,
+              "itineraries":[]
+            },
+            {
+              "url": "https://media.gq.com.mx/photos/635c136db430aa98c0db8aee/16:9/w_2560%2Cc_limit/ciudad%2520de%2520panama-1204869339.jpg",
+              "city": "Panama",
+              "country": "Panama",
+              "language": "Spanish",
+              "currency": "Panamanian Balboa",
+              "description": "Panama City, the dynamic capital of Panama, is a gateway to both history and modernity. Skyscrapers dominate the skyline, contrasting with the historic district of Casco Viejo, where colonial architecture and cobblestone streets offer a glimpse into the past. Explore the engineering marvel of the Panama Canal and marvel at its locks in action. Sample the diverse culinary scene that reflects Panama's cultural fusion, and discover the country's natural wonders, from rainforests to tropical islands. Panama City is a thriving metropolis that showcases the intersection of tradition and progress.",
+              "cost": 3,
+              "itineraries":[]
+            },
+            {
+              "url": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/20/a5/f9.jpg",
+              "city": "Mendoza",
+              "country": "Argentina",
+              "language": "Spanish",
+              "currency": "Argentine Peso",
+              "description": "Nestled against the Andes Mountains, Mendoza is a picturesque city renowned for its stunning vineyards, producing some of Argentina's finest wines. The region's breathtaking landscapes provide a backdrop for wine tasting tours and outdoor adventures. Enjoy the panoramic views of the Andes, hike through Aconcagua National Park, and explore the charming streets of Mendoza's city center. Whether you're savoring local Malbec wines or embarking on a mountain adventure, Mendoza offers a blend of natural beauty and cultural richness.",
+              "cost": 1,
+              "itineraries":[]
+            },
+            {
+              "url": "https://blog.japanwondertravel.com/wp-content/uploads/2022/03/manuel-velasquez-ssfp9okORYs-unsplash.jpg",
+              "city": "Tokyo",
+              "country": "Japan",
+              "language": "Japanese",
+              "currency": "Japanese Yen",
+              "description": "Tokyo, the futuristic capital of Japan, is a mesmerizing blend of tradition and modernity. Skyscrapers and neon lights coexist with tranquil gardens and historic temples. Immerse yourself in the bustling streets of Shibuya, discover the serenity of Meiji Shrine, and indulge in authentic sushi experiences. Tokyo's Harajuku district is a hub of youth culture, fashion, and art, while the historic Asakusa offers a glimpse into old-world Japan. From the serene beauty of cherry blossoms to the vibrant energy of its districts, Tokyo offers an unforgettable journey through contrasts.",
+              "cost": 3,
+              "itineraries":[]
+            },
+            {
+              "url": "https://www.bbva.com/wp-content/uploads/2016/10/Wangjing-BBVA-1024x683.jpg",
+              "city": "Beijing",
+              "country": "China",
+              "language": "Mandarin Chinese",
+              "currency": "Chinese Yuan",
+              "description": "Beijing, the ancient capital of China, is a city steeped in history and culture. Walk along the awe-inspiring Great Wall, explore the Forbidden City's imperial grandeur, and visit the serene Temple of Heaven. Beijing's traditional neighborhoods, known as hutongs, provide a glimpse into local life and traditions. Discover the juxtaposition of ancient sites against the backdrop of modern skyscrapers. Savor the flavors of Peking duck and immerse yourself in Chinese art and philosophy. Beijing's rich heritage and vibrant present create a captivating experience for every traveler.",
+              "cost": 4,
+              "itineraries":[]
+            },
+            {
+              "url": "https://img2.rtve.es/v/868498/square/?h=400",
+              "city": "Barcelona",
+              "country": "Spain",
+              "language": "Spanish",
+              "currency": "Euro",
+              "description": "Barcelona, a vibrant city on the Mediterranean coast, is a masterpiece of architecture, art, and culture. Gaze upon the whimsical creations of Antoni Gaudí, including the iconic La Sagrada Familia and the colorful Park Güell. Wander along La Rambla, a bustling pedestrian street filled with street performers and local markets. Barcelona's beachfront offers relaxation and water activities, while the Gothic Quarter invites you to explore narrow alleys and historic landmarks. With its lively tapas scene and a blend of modernist and medieval treasures, Barcelona promises an enchanting journey.",
+              "cost": 2,
+              "itineraries":[]
+            },
+            {
+              "url": "https://media.traveler.es/photos/6231abc7d03e1c5549e648ca/16:9/w_2560%2Cc_limit/The%2520Best%2520Places%2520for%2520Female%2520Solo%2520Travelers_Amsterdam_GettyImages-923546342.jpg",
+              "city": "Amsterdam",
+              "country": "Netherlands",
+              "language": "Dutch",
+              "currency": "Euro",
+              "description": "Amsterdam, the capital of the Netherlands, is a city of enchanting canals, historic architecture, and artistic treasures. Explore the Anne Frank House, witness the vibrant tulip displays at Keukenhof Gardens, and discover the world-renowned works of Van Gogh and Rembrandt. Immerse yourself in the lively energy of Dam Square and experience the unique charm of cycling through the city's picturesque streets. With its cozy cafes, iconic windmills, and world-class museums, Amsterdam promises a delightful blend of cultural immersion and scenic beauty.",
+              "cost": 5,
+              "itineraries":[]
+            },
+            {
+              "url": "https://historia.nationalgeographic.com.es/medio/2019/12/11/coliseo-roma_2924b6ae_1280x720.jpg",
+              "city": "Rome",
+              "country": "Italy",
+              "language": "Italian",
+              "currency": "Euro",
+              "description": "Rome, the eternal city, is a living testament to ancient history and artistic brilliance. Stand in awe of the Colosseum's grandeur, marvel at the intricate artistry of the Vatican Museums, and toss a coin into the Trevi Fountain for good luck. Explore the Roman Forum's ruins and the majestic Pantheon, all while indulging in Italy's renowned cuisine. From the Vatican City's spiritual aura to the romance of the Spanish Steps, Rome's historic splendor and modern vitality create an unforgettable journey.",
+              "cost": 4,
+              "itineraries":[]
+            },
+            {
+              "url": "https://www.civitatis.com/blog/wp-content/uploads/2022/10/panoramica-rio-janeiro-brasil.jpg",
+              "city": "Rio de Janeiro",
+              "country": "Brazil",
+              "language": "Portuguese",
+              "currency": "Brazilian Real",
+              "description": "Rio de Janeiro, a city of captivating beauty, is famous for its stunning beaches, iconic landmarks, and vibrant culture. Marvel at the panoramic view from Christ the Redeemer, dance to the rhythm of samba during Carnival, and relax on the golden sands of Copacabana Beach. Explore the lush Tijuca Forest, discover the historic neighborhood of Santa Teresa, and experience the energetic atmosphere of the Lapa district. With its blend of natural wonders and lively celebrations, Rio de Janeiro offers a vibrant and enchanting escape.",
+              "cost": 3,
+              "itineraries":[]
+            },
+            {
+              "url": "https://images.ecestaticos.com/Eha5BQExbrkOVLCYYSOibX40YRQ=/0x0:1000x750/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F036%2Fcf6%2F706%2F036cf6706198f8ac3e0fbeb0a759e020.jpg",
+              "city": "Copenhagen",
+              "country": "Denmark",
+              "language": "Danish",
+              "currency": "Danish Krone",
+              "description": "Copenhagen, the capital of Denmark, is a city that epitomizes Scandinavian design, culture, and quality of life. Explore the colorful waterfront of Nyhavn, pedal through the bike-friendly streets, and enjoy the modern architecture of the Copenhagen Opera House. Discover the enchanting Tivoli Gardens, a historic amusement park, and embrace the cozy concept of hygge in local cafes. Copenhagen's commitment to sustainability, its innovative culinary scene, and its fusion of tradition and modernity make it a city of endless charm and inspiration.",
+              "cost": 2,
+              "itineraries":[]
+            },
+            {
+              "url": "https://www.civitatis.com/blog/wp-content/uploads/2020/05/estambul-un-dia.jpg",
+              "city": "Istanbul",
+              "country": "Turkey",
+              "language": "Turkish",
+              "currency": "Turkish Lira",
+              "description": "Istanbul, the transcontinental city straddling Europe and Asia, is a treasure trove of history, culture, and diverse influences. Wander through the grandeur of Hagia Sophia, explore the Blue Mosque's intricate tilework, and embrace the bustling atmosphere of the Grand Bazaar. Experience a traditional Turkish bath, cruise along the Bosphorus Strait, and indulge in the rich flavors of Ottoman cuisine. Istanbul's blend of ancient mosques, bustling markets, and modern urban life offers a captivating journey through time and culture.",
+              "cost": 2,
+              "itineraries":[]
+            },
+            {
+              "url": "https://cafedelasciudades.com.ar/wp-content/uploads/2022/12/Guia-turistica-de-Sidney.jpg",
+              "city": "Sydney",
+              "country": "Australia",
+              "language": "English",
+              "currency": "Australian Dollar",
+              "description": "Sydney, a harbor city known for its iconic landmarks and outdoor lifestyle, offers a perfect blend of urban excitement and natural beauty. Marvel at the Sydney Opera House's architectural masterpiece, climb the Sydney Harbour Bridge for panoramic views, and soak up the sun on Bondi Beach. Explore the Royal Botanic Garden, experience vibrant cultural festivals, and enjoy the city's thriving culinary scene. With its stunning harbor, diverse neighborhoods, and endless recreational opportunities, Sydney promises an unforgettable adventure.",
+              "cost": 3,
+              "itineraries":[]
+            },
+            {
+              "country": "Mexico",
+              "city": "Mexico City",
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GHOPPDRQTVDHZI7YSPEMZQXOGQ.jpg",
+              "language": "Spanish",
+              "currency": "Mexican Peso",
+              "description": "Mexico City, the dynamic capital of Mexico, offers a captivating mix of ancient history and modern innovation. Explore the historic Zocalo, visit the impressive National Museum of Anthropology, and savor authentic Mexican street food. Discover the vibrant neighborhoods of Roma and Condesa, known for their art and culture. Mexico City's rich cultural heritage, bustling markets, and lively street scenes create a dynamic and immersive experience for travelers.",
+              "cost": 1,
+              "itineraries":[]
+            },
+            {
+              "country": "Peru",
+              "city": "Cusco",
+              "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/a9/03/14/vista-desde-la-puerta.jpg?w=600&h=400&s=1",
+              "language": "Spanish",
+              "currency": "Peruvian Sol",
+              "description": "Cusco, a historic city nestled in the Peruvian Andes, is a gateway to the ancient wonders of the Inca civilization. Explore the cobblestone streets of San Blas, visit the sacred site of Sacsayhuaman, and immerse yourself in the vibrant colors of the San Pedro Market. As the starting point for many journeys to Machu Picchu, Cusco offers a blend of Inca heritage, colonial architecture, and a lively atmosphere that captures the essence of Peru.",
+              "cost": 2,
+              "itineraries":[]
+            },
+            {
+              "country": "South Africa",
+              "city": "Cape Town",
+              "url": "https://media.gq.com/photos/5582f6b43655c24c6c9537aa/master/w_1600%2Cc_limit/food-and-travel-2014-10-cape-town-cape-town-gq-magazine-october-2014-travel-01.jpg",
+              "language": "English",
+              "currency": "South African Rand",
+              "description": "Cape Town, a coastal gem in South Africa, offers a breathtaking blend of natural beauty and cultural diversity. Ascend to the summit of Table Mountain for panoramic views, explore Robben Island's history, and indulge in world-class wine tasting in nearby vineyards. Discover the historic Victoria & Alfred Waterfront, visit the colorful Bo-Kaap neighborhood, and embark on a journey along the scenic Chapman's Peak Drive. With its stunning landscapes, rich history, and warm hospitality, Cape Town is a captivating destination.",
+              "cost": 3,
+              "itineraries":[]
+            }
+          ]
 }

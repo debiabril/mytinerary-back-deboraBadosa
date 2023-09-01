@@ -1,0 +1,130 @@
+{
+    "activities" :[
+      {
+        "name": "Tower of London",
+        "image": "https://hrp.imgix.net/https%3A%2F%2Fhistoricroyalpalaces.picturepark.com%2FGo%2Fu0UOVB6h%2FV%2F3269%2F29?auto=format&s=65b25043d80a8e6e8ab018113790240e",
+        "text": "Explore the historic Tower of London."
+      },
+      {
+        "name": "British Museum",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/British_Museum_%28aerial%29.jpg",
+        "text": "Visit the British Museum and see its vast collection."
+      },
+      {
+        "name": "Panama Canal",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9c/1d/fc/transito-por-la-8-maravilla.jpg?w=1200&h=1200&s=1",
+        "text": "Experience the engineering marvel of the Panama Canal."
+      },
+      {
+        "name": "Wine Tasting in Maipu Valley",
+        "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/70/4b/f4.jpg",
+        "text": "Indulge in wine tasting in Maipu Valley."
+      },
+    
+      {
+        "name": "Tokyo Skytree",
+        "image": "https://i.pinimg.com/originals/1d/24/e1/1d24e1d9aca1f3629a4bc152321fc554.jpg",
+        "text": "Visit the Tokyo Skytree for panoramic views of the city."
+      },
+      {
+        "name": "Meiji Shrine",
+        "image": "https://loving-tokyo.com/en/wp-content/uploads/2020/02/meiji-jingu-shrine-main-complex-200210134821003.jpg",
+        "text": "Experience the tranquility of Meiji Shrine."
+      },
+      {
+        "name": "Great Wall of China",
+        "image": "https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638892506/EducationHub/photos/the-great-wall-of-china.jpg",
+        "text": "Walk along the majestic Great Wall of China."
+      },
+    
+      {
+        "name": "Sagrada Familia",
+        "image": "https://www.spain.info/export/sites/segtur/.content/imagenes/reportajes/cataluna/sagrada-familia-interior.jpg",
+        "text": "Admire the architectural masterpiece of Sagrada Familia."
+      },
+      {
+        "name": "Park Güell",
+        "image": "https://www.cataloniahotels.com/es/blog/wp-content/uploads/2017/02/escalinata-park-guell-min.jpg",
+        "text": "Stroll through the whimsical Park Güell."
+      },
+   
+      {
+        "name": "Anne Frank House",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt5jfbV0QGq79KIWWfHb44RnbVbtaFKrScVA&usqp=CAU",
+        "text": "Learn about Anne Frank's life at her former hiding place."
+      },
+    
+      {
+        "name": "Vatican City",
+        "image": "https://mamalovesrome.com/wp-content/uploads/2021/05/Vatican-City-St-Peter-basilica-DP.jpg",
+        "text": "Explore the Vatican City and its world-famous museums."
+      },
+      {
+        "name": "Colosseum",
+        "image": "https://media1.thrillophilia.com/filestore/z8hy0k6w2qtpwsd8yvmeb6c8a61j_73fee02433f41903ed8075e29f0e21f7.jpg",
+        "text": "Visit the iconic Colosseum of Rome."
+      },
+   
+      {
+        "name": "Christ the Redeemer",
+        "image": "https://study.com/cimages/multimages/16/christ-the-redeemer-1-cristo-redentor-corcovado-mountain-rio-de-janeiro-20073481671552423387843.jpg",
+        "text": "Marvel at the statue of Christ the Redeemer."
+      },
+   
+      {
+        "name": "Tivoli Gardens",
+        "image": "https://www.routesnorth.com/wp-content/uploads/2023/03/tivoli-at-night.jpg",
+        "text": "Enjoy the enchanting Tivoli Gardens."
+      },
+ 
+      {
+        "name": "Hagia Sophia",
+        "image": "https://images.memphistours.com/large/beb822487e575b5e43001d647d37bf16.jpg",
+        "text": "Visit the magnificent Hagia Sophia."
+      },
+      {
+        "name": "Blue Mosque",
+        "image": "https://i0.wp.com/www.istanbulhistorichotels.com/wp-content/uploads/2016/03/blue_mosque_03.jpg",
+        "text": "Admire the stunning architecture of the Blue Mosque."
+      },
+ 
+      {
+        "name": "Sydney Opera House",
+        "image": "https://www.australiaday.com.au/assets/Uploads/ADCNSW-NSW-Govt_SaltyDingo_9208.jpg",
+        "text": "Experience a performance at the Sydney Opera House."
+      },
+      {
+        "name": "Bondi Beach",
+        "image": "https://wikiaustralia.com/wp-content/uploads/2022/07/Bondi-Beach.jpg",
+        "text": "Relax and surf at the famous Bondi Beach."
+      },
+  
+      {
+        "name": "Palacio de Bellas Artes",
+        "image": "https://mymodernmet.com/wp/wp-content/uploads/2020/05/palacio-bellas-artes-fb.jpg",
+        "text": "Admire the stunning architecture of Palacio de Bellas Artes."
+      },
+     {
+        "name": "Teotihuacan",
+        "image": "https://guiauniversitaria.mx/wp-content/uploads/2020/05/GU-teotihuacan.jpg",
+        "text": "Explore the ancient city of Teotihuacan."
+    },
+    
+      {
+        "name": "Machu Picchu",
+        "image": "https://www.perurail.com/wp-content/uploads/2020/11/Machu-Picchu-la-Ciudadela-Inca.jpg",
+        "text": "Discover the awe-inspiring ruins of Machu Picchu."
+      },
+    
+      {
+        "name": "Table Mountain",
+        "image": "https://media.istockphoto.com/id/482989593/photo/table-mountain-cape-town-south-africa.jpg?s=612x612&w=0&k=20&c=090XpRVKromyj36DZlubvHzEH839BPGP08ipuQWyMDs=",
+        "text": "Take a cable car up Table Mountain for breathtaking views."
+      },
+      {
+        "name": "Cape of Good Hope",
+        "image": "https://traveldigg.com/wp-content/uploads/2020/03/Cape-of-Good-Hope-Cape-Point.jpg",
+        "text": "Visit the iconic Cape of Good Hope."
+      }
+    ]
+  }

@@ -1,0 +1,233 @@
+{
+    "itineraries": [
+      {
+        "name": "Exploring London",
+        "duration": 6,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#London", "#Exploration", "#Culture"],
+        "user": "64f247f78f9dcde54952f412",
+        "activities": ["64f24231ddfa2f2966e4272c", "64f24231ddfa2f2966e4272d"],
+        "comments": [
+          {"comment": "London is amazing!", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "I love this city.", "user": "64f247f78f9dcde54952f417"},
+          {"comment": "Any recommendations for visiting?", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "London Bridge is impressive.", "user": "64f247f78f9dcde54952f422"},
+          {"comment": "I would come back again and again.", "user": "64f247f78f9dcde54952f414"},
+          {"comment": "English tea is delicious.", "user": "64f247f78f9dcde54952f413"}
+        ]
+      },
+      {
+        "name": "Adventure in Panama",
+        "duration": 5,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Panama", "#Adventure", "#Beaches"],
+        "user": "64f247f78f9dcde54952f417",
+        "activities": ["64f24231ddfa2f2966e4272e"],
+        "comments": [
+          {"comment": "Panama's beaches are beautiful.", "user": "64f247f78f9dcde54952f418"},
+          {"comment": "I want to go to Panama soon!", "user": "64f247f78f9dcde54952f422"},
+          {"comment": "What's the best time to visit?", "user": "64f247f78f9dcde54952f412"},
+          {"comment": "Panamanian food is delicious.", "user": "64f247f78f9dcde54952f424"}
+        ]
+      },
+      {
+        "name": "Discovering Mendoza",
+        "duration": 4,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Mendoza", "#Wine", "#Nature"],
+        "user": "64f247f78f9dcde54952f413",
+        "activities": ["64f24231ddfa2f2966e4272f"],
+        "comments": [
+          {"comment": "Mendoza's vineyards are stunning.", "user": "64f247f78f9dcde54952f417"},
+          {"comment": "Argentine wine is the best.", "user": "64f247f78f9dcde54952f416"},
+          {"comment": "Any recommended tours?", "user": "64f247f78f9dcde54952f417"},
+          {"comment": "Mendoza is a paradise for wine lovers.", "user": "64f247f78f9dcde54952f418"}
+        ]
+      },
+      {
+        "name": "Tokyo Adventure",
+        "duration": 8,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Tokyo", "#Adventure", "#Culture"],
+        "user": "64f247f78f9dcde54952f416",
+        "activities": ["64f24231ddfa2f2966e42730", "64f24231ddfa2f2966e42731"],
+        "comments": [
+          {"comment": "Tokyo is a vibrant city!", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "I enjoyed my time in Tokyo.", "user": "64f247f78f9dcde54952f417"},
+          {"comment": "What's the best sushi place here?", "user": "64f247f78f9dcde54952f422"},
+          {"comment": "The city lights in Tokyo are mesmerizing.", "user": "64f247f78f9dcde54952f412"},
+          {"comment": "I want to visit Tokyo Disneyland.", "user": "64f247f78f9dcde54952f424"}
+        ]
+      },
+      {
+        "name": "Exploring Beijing",
+        "duration": 7,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Beijing", "#Exploration", "#History"],
+        "user": "64f247f78f9dcde54952f418",
+        "activities": ["64f24231ddfa2f2966e42732"],
+        "comments": [
+          {"comment": "The Great Wall of China is a must-see.", "user": "64f247f78f9dcde54952f417"},
+          {"comment": "I learned a lot about Chinese history in Beijing.", "user": "64f247f78f9dcde54952f419"},
+          {"comment": "The food here is delicious.", "user": "64f247f78f9dcde54952f422"},
+          {"comment": "Beijing's architecture is stunning.", "user": "64f247f78f9dcde54952f413"}
+        ]
+      },
+      {
+        "name": "Barcelona Getaway",
+        "duration": 5,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Barcelona", "#Getaway", "#Beaches"],
+        "user": "64f247f78f9dcde54952f419",
+        "activities": ["64f24231ddfa2f2966e42733", "64f24231ddfa2f2966e42734"],
+        "comments": [
+          {"comment": "I love the beaches in Barcelona.", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "Gaudi's architecture is impressive.", "user": "64f247f78f9dcde54952f41b"},
+          {"comment": "What's the best tapas restaurant in town?", "user": "64f247f78f9dcde54952f41a"},
+          {"comment": "Barcelona's nightlife is lively.", "user": "64f247f78f9dcde54952f417"}
+        ]
+      },
+      {
+        "name": "Amsterdam Exploration",
+        "duration": 6,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Amsterdam", "#Exploration", "#Canals"],
+        "user": "64f247f78f9dcde54952f41a",
+        "activities": ["64f24231ddfa2f2966e42735"],
+        "comments": [
+          {"comment": "The canals of Amsterdam are picturesque.", "user": "64f247f78f9dcde54952f424"},
+          {"comment": "I had a great time biking around the city.", "user": "64f247f78f9dcde54952f423"},
+          {"comment": "Where can I find the best stroopwafels?", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "Amsterdam's art scene is fantastic.", "user": "64f247f78f9dcde54952f417"}
+        ]
+      },
+      {
+        "name": "Rome's Historical Tour",
+        "duration": 7,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Rome", "#History", "#Architecture"],
+        "user": "64f247f78f9dcde54952f41c",
+        "activities": ["64f24231ddfa2f2966e42736", "64f24231ddfa2f2966e42737"],
+        "comments": [
+          {"comment": "The Colosseum is awe-inspiring.", "user": "64f247f78f9dcde54952f412"},
+          {"comment": "I learned so much about ancient Rome.", "user": "64f247f78f9dcde54952f41d"},
+          {"comment": "Where can I get the best pizza in Rome?", "user": "64f247f78f9dcde54952f418"},
+          {"comment": "Rome's architecture is timeless.", "user": "64f247f78f9dcde54952f417"}
+        ]
+      },
+      {
+        "name": "Rio de Janeiro Beach Retreat",
+        "duration": 5,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#RioDeJaneiro", "#Beaches", "#Samba"],
+        "user": "64f247f78f9dcde54952f41d",
+        "activities": ["64f24231ddfa2f2966e42738"],
+        "comments": [
+          {"comment": "The beaches in Rio are incredible.", "user": "64f247f78f9dcde54952f416"},
+          {"comment": "Samba music and dance are infectious.", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "Where can I find the best caipirinha?", "user": "64f247f78f9dcde54952f419"},
+          {"comment": "Rio's Christ the Redeemer is breathtaking.", "user": "64f247f78f9dcde54952f41e"}
+        ]
+      },
+      {
+        "name": "Copenhagen Scenic Tour",
+        "duration": 5,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Copenhagen", "#Scenic", "#Nordic"],
+        "user": "64f247f78f9dcde54952f41e",
+        "activities": ["64f24231ddfa2f2966e42739"],
+        "comments": [
+          {"comment": "Copenhagen's canals are charming.", "user": "64f247f78f9dcde54952f422"},
+          {"comment": "The Little Mermaid statue is iconic.", "user": "64f247f78f9dcde54952f417"},
+          {"comment": "Where can I try traditional Danish pastries?", "user": "64f247f78f9dcde54952f41c"},
+          {"comment": "Copenhagen's Nordic cuisine is a must-try.", "user": "64f247f78f9dcde54952f418"}
+        ]
+      },
+      {
+        "name": "Istanbul Cultural Experience",
+        "duration": 6,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Istanbul", "#Culture", "#Bazaars"],
+        "user": "64f247f78f9dcde54952f41f",
+        "activities": ["64f24231ddfa2f2966e4273a", "64f24231ddfa2f2966e4273b"],
+        "comments": [
+          {"comment": "The Grand Bazaar is a shopper's paradise.", "user": "64f247f78f9dcde54952f414"},
+          {"comment": "Istanbul's history is fascinating.", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "Where can I savor the best kebabs?", "user": "64f247f78f9dcde54952f411"},
+          {"comment": "Istanbul's architecture is a blend of East and West.", "user": "64f247f78f9dcde54952f424"}
+        ]
+      },
+      {
+        "name": "Sydney Harbor Views",
+        "duration": 4,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Sydney", "#Harbor", "#OperaHouse"],
+        "user": "64f247f78f9dcde54952f421",
+        "activities": ["64f24231ddfa2f2966e4273c", "64f24231ddfa2f2966e4273d"],
+        "comments": [
+          {"comment": "The Sydney Opera House is a masterpiece.", "user": "64f247f78f9dcde54952f420"},
+          {"comment": "I enjoyed the breathtaking harbor views.", "user": "64f247f78f9dcde54952f417"},
+          {"comment": "Where can I find the best seafood in Sydney?", "user": "64f247f78f9dcde54952f41f"},
+          {"comment": "Sydney's beaches are pristine.", "user": "64f247f78f9dcde54952f414"}
+        ]
+      },
+      {
+        "name": "Mexico City Cultural Immersion",
+        "duration": 6,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#MexicoCity", "#Culture", "#Art"],
+        "user": "64f247f78f9dcde54952f420",
+        "activities": ["64f24231ddfa2f2966e4273e", "64f24231ddfa2f2966e4273f"],
+        "comments": [
+          {"comment": "Mexico City's art scene is vibrant.", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "I fell in love with Mexican cuisine.", "user": "64f247f78f9dcde54952f41f"},
+          {"comment": "Where can I explore ancient Aztec ruins?", "user": "64f247f78f9dcde54952f415"},
+          {"comment": "Mexico City's museums are world-class.", "user": "64f247f78f9dcde54952f417"}
+        ]
+      },
+      {
+        "name": "Cusco Inca Heritage",
+        "duration": 5,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#Cusco", "#Inca", "#Ruins"],
+        "user": "64f247f78f9dcde54952f415",
+        "activities": ["64f24231ddfa2f2966e42740"],
+        "comments": [
+          {"comment": "Machu Picchu is a bucket-list destination.", "user": "64f247f78f9dcde54952f412"},
+          {"comment": "Cusco's history is rich and fascinating.", "user": "64f247f78f9dcde54952f41f"},
+          {"comment": "Where can I try traditional Peruvian dishes?", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "Cusco's architecture is a testament to the Incas.", "user": "64f247f78f9dcde54952f421"}
+        ]
+      },
+      {
+        "name": "Cape Town Coastal Adventure",
+        "duration": 7,
+        "price": 3,
+        "likes": 15,
+        "hashtags": ["#CapeTown", "#Adventure", "#Wildlife"],
+        "user": "64f247f78f9dcde54952f421",
+        "activities": ["64f24231ddfa2f2966e42741", "64f24231ddfa2f2966e42742"],
+        "comments": [
+          {"comment": "Cape Town's coastline is breathtaking.", "user": "64f247f78f9dcde54952f413"},
+          {"comment": "I encountered amazing wildlife here.", "user": "64f247f78f9dcde54952f420"},
+          {"comment": "Where can I go shark cage diving?", "user": "64f247f78f9dcde54952f41f"},
+          {"comment": "Cape Town's Table Mountain is a must-hike.", "user": "64f247f78f9dcde54952f412"}
+        ]
+      }
+    ]
+  }
+  

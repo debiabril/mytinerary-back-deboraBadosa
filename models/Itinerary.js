@@ -9,8 +9,7 @@ let schema =  new Schema({
     likes: {type:Number},
     hashtags: [{type:String}],
     user: {type: Types.ObjectId, ref:'users'},
-    city_id: {type: Types.ObjectId , ref:'cities'},
-    activities:[{ type: Types.ObjectId, ref:'ativities' }],
+    activities:[{ type: Types.ObjectId, ref:'activities' }],
     comments:[{
         comment: {type: String},
         user : {type: Types.ObjectId, ref:'users' }
