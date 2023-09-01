@@ -10,6 +10,7 @@ let schema =  new Schema({
     currency: {type:String},
     description: {type:String},
     cost: {type:Number},
+    itineraries: [{type: Types.ObjectId, ref : 'itineraries'}]
 },{
     timestamps: true
 })
