@@ -12,7 +12,7 @@ const controller = {
             if(users.length >0 ){
                 return res.status(200).json({
                     success: true,
-                    cities
+                    users
                 })
             }
 
