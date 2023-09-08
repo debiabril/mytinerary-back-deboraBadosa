@@ -9,7 +9,7 @@ const router = express.Router()
 
 router.get("/", (request, response) => {
     console.log(request);
-    response.send("Hello World");
+    response.send("Prueba de Hello World");
 });
 router.use('/cities', citiesRouter);
 router.use('/users', usersRouter);

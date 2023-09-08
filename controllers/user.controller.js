@@ -16,16 +16,9 @@ const controller = {
                 })
             }
 
-            return res.status(404).json({
-                success: false,
-                message: "We can't find the user"
-            });
+            return next(error)
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error getting the Users'
-            })
+            next(error)
         }
     },
     getUserById: async(req, res) => {
@@ -38,16 +31,9 @@ const controller = {
                     user: oneUser
                 });
             }
-            return res.status(404).json({
-                success: false,
-                message: 'Error getting the User'
-            });
+            return next(error)
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error getting the User'
-            })
+            next(error)
         } 
     },    createUser: async(req, res)=>{
         try {
@@ -58,11 +44,7 @@ const controller = {
                 message: 'User created'
             })
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error creating the User'
-            })
+            next(error)
         }    
     },
     updateUser: async(req, res) => {
@@ -72,13 +54,8 @@ const controller = {
                 success: true,
                 message: 'User updated successfully'
             })
-
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error trying to update the User'
-            })
+            next(error)
         }
     },
     deleteUser: async(req, res) => {
@@ -89,11 +66,7 @@ const controller = {
                 message: 'User deleted successfully'
             })
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error trying to delete the User'
-            })
+            next(error)
         }
     },
 }

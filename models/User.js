@@ -5,7 +5,8 @@ let collection = 'users';
 let schema =  new Schema({
     name : {type:String, required:true},
     image : {type:String},
-    itineraries: [{type: Types.ObjectId, ref : 'itineraries'}]
+    itineraries: [{type: Types.ObjectId, ref : 'itineraries'}],
+    role:{type: String, require:true}
 },{
     timestamps: true
 })

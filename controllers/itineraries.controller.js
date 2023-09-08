@@ -16,16 +16,9 @@ const controller = {
                 })
             }
 
-            return res.status(404).json({
-                success: false,
-                message: "We can't find the Itinerary"
-            });
+            return next(error)
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error getting the itineraries'
-            })
+            next(error)
         }
     },
 
@@ -39,16 +32,9 @@ const controller = {
                     itinerary: oneItinerary
                 });
             }
-            return res.status(404).json({
-                success: false,
-                message: 'Error getting the Itinerary'
-            });
+            return next(error)
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error getting the Itinerary'
-            })
+            next(error)
         } 
     },
 
@@ -61,11 +47,7 @@ const controller = {
                 message: 'Itinerary created'
             })
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error creating the Itinerary'
-            })
+            next(error)
         }        
     },
     updateItinerary: async(req, res) => {
@@ -77,11 +59,7 @@ const controller = {
             })
 
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error trying to update the Itinerary'
-            })
+            next(error)
         }
     },
     deleteItinerary: async(req, res) => {
@@ -92,11 +70,7 @@ const controller = {
                 message: 'Itinerary deleted successfully'
             })
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error trying to delete the Itinerary'
-            })
+            next(error)
         }
     },
 }

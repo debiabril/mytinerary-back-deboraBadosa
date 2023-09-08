@@ -20,16 +20,9 @@ const controller = {
                 })
             }
 
-            return res.status(404).json({
-                success: false,
-                message: "We can't find the city"
-            });
+            return next(error)
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error getting the Cities'
-            })
+            next(error)
         }
     },
 
@@ -43,16 +36,9 @@ const controller = {
                     city: oneCity
                 });
             }
-            return res.status(404).json({
-                success: false,
-                message: 'Error getting the City'
-            });
+            return next(error)
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error getting the City'
-            })
+            next(error)
         } 
     },
 
@@ -65,11 +51,7 @@ const controller = {
                 message: 'City created'
             })
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error creating the City'
-            })
+            next(error)
         }        
     },
     updateCity: async(req, res) => {
@@ -81,11 +63,7 @@ const controller = {
             })
 
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error trying to update the City'
-            })
+            next(error)
         }
     },
     deleteCity: async(req, res) => {
@@ -96,11 +74,7 @@ const controller = {
                 message: 'City deleted successfully'
             })
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error trying to delete the City'
-            })
+            next(error)
         }
     },
 }

@@ -17,16 +17,9 @@ const controller = {
                 })
             }
 
-            return res.status(404).json({
-                success: false,
-                message: "We can't find the activity"
-            });
+            return next(error)
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error getting the activities'
-            })
+            next(error)
         }
     },
 
@@ -40,16 +33,9 @@ const controller = {
                     activity: oneActivity
                 });
             }
-            return res.status(404).json({
-                success: false,
-                message: 'Error getting the Activity'
-            });
+            return next(error)
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error getting the Activity'
-            })
+            next(error)
         } 
     },
 
@@ -62,11 +48,7 @@ const controller = {
                 message: 'Activity created'
             })
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error creating the Activity'
-            })
+            next(error)
         }        
     },
     updateActivity: async(req, res) => {
@@ -78,11 +60,7 @@ const controller = {
             })
 
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error trying to update the Activity'
-            })
+            next(error)
         }
     },
     deleteActivity: async(req, res) => {
@@ -93,11 +71,7 @@ const controller = {
                 message: 'Activity deleted successfully'
             })
         } catch (error) {
-            console.log(error);
-            return res.status(500).json({
-                succes: false,
-                message: 'Error trying to delete the Activity'
-            })
+            next(error)
         }
     },
 }
