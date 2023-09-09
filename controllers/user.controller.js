@@ -6,7 +6,6 @@ const controller = {
         if(req.query.name){
             queries.name = new RegExp(`^${req.query.name}`, 'i')
         }
-
         try {
             const users = await User.find(queries)
             if(users.length >0 ){
@@ -15,7 +14,6 @@ const controller = {
                     users
                 })
             }
-
             return next(error)
         } catch (error) {
             next(error)
@@ -24,7 +22,6 @@ const controller = {
     getUserById: async(req, res) => {
         try {
             const oneUser = await User.findById(req.params.id).populate('itineraries')
-            
             if(oneUser){
                 return res.status(200).json({
                     success: true,
@@ -38,7 +35,6 @@ const controller = {
     },    createUser: async(req, res)=>{
         try {
             const newUser = await User.create(req.body); 
-        
             return res.status(201).json({
                 success: true,
                 message: 'User created'
