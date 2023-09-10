@@ -8,7 +8,9 @@ let schema =  new Schema({
     password: {type:String, required:true},
     image : {type:String},
     itineraries: [{type: Types.ObjectId, ref : 'itineraries'}],
-    role:{type: String}
+    role:{type: String},
+    is_verified: {type: Boolean, default: true},
+    verified_code: {type: String}
 },{
     timestamps: true
 })
