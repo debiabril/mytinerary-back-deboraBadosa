@@ -1,6 +1,6 @@
 import Joi from "joi"
 /* import { joi } from "joi-oid"; */
-export const createUserSchema = Joi.object({
+export const userSignUp = Joi.object({
     email: Joi.string().required().email({minDomainSegments: 2}).messages({
         'any.required': 'The email is required',
         'string.empty': 'The email is required',

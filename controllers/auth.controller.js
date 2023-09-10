@@ -8,6 +8,7 @@ const controller = {
         try {
             req.body.verified_code = crypto.randomBytes(10).toString('hex');
             req.body.password = bcryptjs.hashSync(req.body.password, 10);
+            req.body.role=0
 
             const user = await User.create(req.body)
             
@@ -16,10 +17,7 @@ const controller = {
                 message: 'Registered user!'
             })
         } catch (error) {
-            res.status(500).json({
-                success: false,
-                message: 'Error registering user'
-            })
+            next(error)
         }
     },
     signin: async (req, res, next) => {
@@ -57,10 +55,7 @@ const controller = {
             })
 
         } catch (error) {
-            res.status(500).json({
-                success: false,
-                message: 'Error authenticating user'
-            })
+            next(error)
         }
     },
     signout: async (req, res, next) => {
@@ -76,10 +71,7 @@ const controller = {
                 message: 'Logged out user'
             })
         } catch (error) {
-            res.status(500).json({
-                success: false,
-                message: 'Error authenticating user'
-            })
+            next(error)
         }
     },
     token: async (req, res, next) => {
