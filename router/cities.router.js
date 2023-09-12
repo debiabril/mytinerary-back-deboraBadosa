@@ -3,6 +3,7 @@ import citiesController from "../controllers/cities.controller.js";
 import { validator } from "../middlewares/validator.js";
 import { createCitySchema } from "../schema/city.schema.js";
 import { isAdmin } from "../middlewares/isAdmin.middleware.js";
+import passport from "../middlewares/passport.js";
 
 const router = express.Router()
 
@@ -12,10 +13,10 @@ router.get('/', getCities);
 
 router.get('/:id', getCityById);
 
-router.post('/', validator(createCitySchema), createCity);
+router.post('/', validator(createCitySchema), passport.authenticate('jwt', { session: false }) , createCity);
 
-router.put('/:id', /* isAdmin, */ updateCity);
+router.put('/:id', passport.authenticate('jwt', { session: false }), isAdmin, updateCity);
 
-router.delete('/:id',/*  isAdmin, */ deleteCity);
+router.delete('/:id', passport.authenticate('jwt', { session: false }), isAdmin, deleteCity);
 
 export default router;

@@ -4,7 +4,7 @@ import { accountExistsSignUp } from '../middlewares/auth/accountExistsSignUp.mid
 import { accountExistsSignIn } from '../middlewares/auth/accountExistsSignIn.middleware.js';
 import { accountHasBeenVerified } from '../middlewares/auth/accountHasBeenVerified.middleware.js';
 import { passwordIsOk } from '../middlewares/auth/passwordIsOk.middleware.js';
-/* import passport from '../middlewares/passport.js'; */
+import passport from '../middlewares/passport.js';
 
 const { signup, signin, signout, token } = authController;
 
@@ -14,8 +14,8 @@ router.post('/signup',/* validator(validateSignUp), */accountExistsSignUp,signup
 
 router.post('/signin',/* validator(validateSignIn), */accountExistsSignIn, accountHasBeenVerified, passwordIsOk, signin)
 
-router.post('/signout'/* , passport.authenticate('jwt', { session: false }) */, signout)
+router.post('/signout', passport.authenticate('jwt', { session: false }), signout)
 
-router.post('/token',/*  passport.authenticate('jwt', { session: false }), token */)
+router.post('/token', passport.authenticate('jwt', { session: false }), token)
 
 export default router;

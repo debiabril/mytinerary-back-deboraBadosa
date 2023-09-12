@@ -10,7 +10,8 @@ let schema =  new Schema({
     itineraries: [{type: Types.ObjectId, ref : 'itineraries'}],
     role:{type: String},
     is_verified: {type: Boolean, default: true},
-    verified_code: {type: String}
+    verified_code: {type: String},
+    online: {type: Boolean, default: false}
 },{
     timestamps: true
 })

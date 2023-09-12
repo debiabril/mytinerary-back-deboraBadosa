@@ -6,8 +6,8 @@ export const passwordIsOk= (req, res, next) => {
         return next()
     }
     return res.status(400).json({
-        success:false, 
-        message:'wrong credentials!'
+        success: false,
+        message: 'Wrong credentials'
     })
 }
 

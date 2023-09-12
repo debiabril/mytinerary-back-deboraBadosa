@@ -17,7 +17,10 @@ const controller = {
                 message: 'Registered user!'
             })
         } catch (error) {
-            next(error)
+            res.status(500).json({
+                success: false,
+                message: 'Error registering user'
+            })
         }
     },
     signin: async (req, res, next) => {
@@ -35,8 +38,8 @@ const controller = {
                     name: user.name,
                     image: user.image
                 },
-                process.env.SECRET_TOKEN,
-                {expiresIn: '10h'}
+                process.env.SECRET,
+                {expiresIn: '2d'}
             )
             
             user.password = null;
@@ -55,7 +58,10 @@ const controller = {
             })
 
         } catch (error) {
-            next(error)
+            res.status(500).json({
+                success: false,
+                message: 'Error authenticating user'
+            })
         }
     },
     signout: async (req, res, next) => {

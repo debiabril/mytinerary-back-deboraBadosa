@@ -2,7 +2,8 @@ import User from '../../models/User.js'
 
 export const accountExistsSignIn = async(req,res,next) => {
     const user = await User.findOne({email: req.body.email})
-    if (user) {
+    try {
+       if (user) {
             req.user = {
             id: user._id,
             email: user.email,
@@ -10,10 +11,11 @@ export const accountExistsSignIn = async(req,res,next) => {
             password: user.password,
             role: user.role,
             is_verified: user.is_verified, 
+            online: user.online,
         }
         return next()
+    } 
+    } catch (error) {
+        return next(error)
     }
-    	  return res.status(400).json({
-            success:false, 
-            message:'user does not exist!'})
 }
