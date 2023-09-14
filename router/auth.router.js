@@ -10,7 +10,7 @@ const { signup, signin, signout, token } = authController;
 
 const router = express.Router();
 
-router.post('/signup',/* validator(validateSignUp), */accountExistsSignUp,signup)
+router.post('/signup',/* validator(validateSignUp), */accountExistsSignUp, signup)
 
 router.post('/signin',/* validator(validateSignIn), */accountExistsSignIn, accountHasBeenVerified, passwordIsOk, signin)
 
