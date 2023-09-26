@@ -67,7 +67,6 @@ const controller = {
     },
     googleSignin: async(req, res, next) => {
         const{token_id} = req.body;
-
         try {
             const {name, email, image} = await verify(token_id)
             let user = await User.findOne({email});

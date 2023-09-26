@@ -24,8 +24,7 @@ const controller = {
 
     getItineraryById: async(req, res) => {
         try {
-            const oneItinerary = await Itinerary.findById(req.params.id).populate('activities').populate('user')
-            
+            const oneItinerary = await Itinerary.findById(req.params.id).populate('activities').populate('user').populate({path: 'comments', populate:{ path: 'user',select:'name image'}})
             if(oneItinerary){
                 return res.status(200).json({
                     success: true,
